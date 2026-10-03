@@ -1,0 +1,33 @@
+<!--Granados Aguirre Evelyn Ivonne  Num.Control: 24308051280551-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Formularios en HTML</title>
+	<!-- Libreria de iconos en linea -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-
+	awesome/7.3.1/css/all.min.css">
+</head>
+
+<body>
+	<h2>Formularios con Radioboton</h2>
+	<!-- <form> crea un formulario y method indica como se envian los datos -->
+	<form action="" method="post">Ingresa tu nombre:
+		<!-- type indica que es un campo de texto y name identifica el campo -->
+		<input type="text" name="nombre"><br>
+		Selecciona el maximo de estudios que tienes:<br>
+		<!-- type radio permite seleccionar una sola opcion -->
+		<!-- name agrupa las opciones y value identifica cada una -->
+		<input type="radio" name="estudios" value="1">Sin estudios <br>
+		<input type="radio" name="estudios" value="2">Primaria <br>
+		<input type="radio" name="estudios" value="3">Secundaria <br>
+		<input type="radio" name="estudios" value="4">Preparatoria <br>
+		<!-- type submit crea un boton para enviar el formulario -->
+		<!-- value indica el texto que muestra el boton -->
+		<input type="submit" value="enviar">
+		<!-- type reset crea un boton para borrar los datos -->
+		<input type="reset" value="borrar">
+	</form>
+</body>
+</html>
